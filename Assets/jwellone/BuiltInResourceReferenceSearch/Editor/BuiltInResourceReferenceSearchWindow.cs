@@ -114,7 +114,7 @@ namespace jwelloneEditor
 				{
 					count += reference.count;
 				}
-				EditorUtility.DisplayDialog("Serach", $"There are {count} references part.", "close");
+				EditorUtility.DisplayDialog("Search", $"There are {count} references part.", "close");
 			}
 
 			EditorGUILayout.EndHorizontal();
@@ -152,7 +152,7 @@ namespace jwelloneEditor
 			{
 				count += reference.count;
 			}
-			EditorUtility.DisplayDialog("Serach", $"There are {count} references part.", "close");
+			EditorUtility.DisplayDialog("Search", $"There are {count} references part.", "close");
 
 		}
 
