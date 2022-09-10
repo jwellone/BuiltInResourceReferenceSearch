@@ -132,11 +132,6 @@ namespace jwelloneEditor
                 return false;
             }
 
-            if (PrefabUtility.IsAnyPrefabInstanceRoot(component.gameObject) && PrefabUtility.IsPrefabAssetMissing(component.gameObject))
-            {
-                //return true;
-            }
-
             var property = new SerializedObject(component).GetIterator();
             while (property.NextVisible(true))
             {
